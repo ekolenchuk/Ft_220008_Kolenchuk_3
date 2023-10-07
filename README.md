@@ -24,5 +24,5 @@
 
 ## Результаты тестирования
 ![Test1](https://github.com/ekolenchuk/Ft_220008_Kolenchuk_3/blob/main/test1.png)
-![Test2](https://github.com/ekolenchuk/Ft_220008_Kolenchuk_3/blob/main/test2.png)
-![Test3](https://github.com/ekolenchuk/Ft_220008_Kolenchuk_3/blob/main/test3.png)
+![Test2](https://github.com/ekolenchuk/Ft_220008_Kolenchuk_3/blob/main/test4.png)
+![Test3](https://github.com/ekolenchuk/Ft_220008_Kolenchuk_3/blob/main/test5.png)
