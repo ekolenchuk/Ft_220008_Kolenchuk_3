@@ -36,21 +36,21 @@ while f == 'да':
         case 'ферзь':
             if abs(x1 - x2) == abs(y1 - y2) or x1 == x2 or y1 == y2:
                 danger = True
-                break
+            break
         case 'ладья':
             if x1 == x2 or y1 == y2:
                 danger = True
-                break
-        case 'cлон':
+            break
+        case 'слон':
             if abs(x1 - x2) == abs(y1 - y2):
                 danger = True
-                break
+            break
         case 'конь':
             dx = abs(x1 - x2)
             dy = abs(y1 - y2)
             if dx == 1 and dy == 2 or dx == 2 and dy == 1:
                 danger = True
-                break
+            break
         case _:
             print('Фигура не понятна. Ввести еще раз? Да или Нет')
             f = input().lower()
@@ -62,7 +62,7 @@ while f == 'да':
 if danger:
     print(
         f'{figure1} ({x1},{y1}) угрожает полю ({x2},{y2}), '
-        '\nна которое может попасть одним ходом.'
+        'на которое может попасть одним ходом.'
     )
 else:
     print(f'{figure1} ({x1},{y1}) не угрожает полю ({x2},{y2})')
